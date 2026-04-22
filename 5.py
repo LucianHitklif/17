@@ -26,5 +26,7 @@ def is_valid_password(password):
         return False
     return True
 
-password = input()
-print(is_valid_password(password))
+print(is_valid_password('1221:101:22'))
+print(is_valid_password('565:30:50'))
+print(is_valid_password('112:7:9'))
+print(is_valid_password('1221:101:22:22'))
