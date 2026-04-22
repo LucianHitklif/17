@@ -12,5 +12,6 @@ def get_next_prime(num):
         candidate += 1
     return candidate
 
-num = int(input())
-print(get_next_prime(num))
+print(get_next_prime(6))
+print(get_next_prime(7))
+print(get_next_prime(14))
