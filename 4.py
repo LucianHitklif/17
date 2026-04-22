@@ -13,5 +13,6 @@ def is_password_good(password):
             has_digit = True
     return has_upper and has_lower and has_digit
   
-password = input()
-print(is_password_good(password))
+print(is_password_good('aabbCC11OP'))
+print(is_password_good('abC1pu'))
+
