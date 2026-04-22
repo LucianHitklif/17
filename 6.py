@@ -8,7 +8,6 @@ def solve(a, b, c):
         root2 = (-b + D**0.5) / (2*a)
         return f"{min(root1, root2):.1f} {max(root1, root2):.1f}"
 
-a = int(input())
-b = int(input())
-c = int(input())
-print(solve(a, b, c))
+print(solve(1, -4, -5))
+print(solve(-2, 7, -5))
+print(solve(1, 2, 1))
