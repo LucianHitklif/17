@@ -6,5 +6,6 @@ def is_prime(num):
             return False
     return True
 
-num = int(input())
-print(is_prime(num))
+print(is_prime(1))
+print(is_prime(10))
+print(is_prime(17))
